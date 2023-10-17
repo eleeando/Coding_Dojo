@@ -1,0 +1,23 @@
+             Diagram 1   	 		  						Console : ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345]                        
+contactInfo	|["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345]
+		|
+		|
+		|
+		|
+
+            Diagram 2      			 						Console :["broccoli", "ice cream","hashbrowns"]                         
+produce		|["apples", "oranges"]
+frozen		|["broccoli", "ice cream","hashbrowns"]
+		|
+		|
+		|
+
+       	     Diagram 3      									Console :["Bambi", "Beetlejuice", "Toy Story","Zorro"]                         
+movieLibrary	|["Bambi", "Beetlejuice", "Toy Story","Zorro"]
+		|
+		|
+		|
+		|
+
+
+
