@@ -1,0 +1,53 @@
+    T- diagram of Code Snippet 1
+console.log	| hello
+console.log	| dojo
+		|
+		|
+     T- diagram of Code Snippet 2
+console.log	| hello
+console.log	| result is 15
+		|
+		|
+    T- diagram of Code Snippet 3
+console.log	|num is 3
+console.log	|result is 18
+		|
+		|
+    T- diagram of Code Snippet 4
+console.log	|15
+console.log	|10
+console.log	|10
+console.log	|15
+    T- diagram of Code Snippet 5
+console.log	|15
+console.log	|10
+console.log	|20
+console.log	|15
+    T- diagram of Code Snippet 6
+console.log	| num is 3
+console.log	|num is 5
+console.log	|16
+		|
+    T- diagram of Code Snippet 7		
+console.log	|5
+console.log	|8
+		|
+		|
+    T- diagram of Code Snippet 8
+console.log	|2
+console.log	|5
+console.log	|3
+console.log	|8
+    T- diagram of Code Snippet 9
+console.log	|sum is 5
+console.log	|sum is 8
+console.log	|result is 13
+		|
+    T- diagram of Code Snippet 10
+console.log	|sum is 5
+console.log	|sum is 3
+console.log	|sum is 6
+console.log	|sum is 3
+console.log	|sum is 5
+co,sole log	|result is 11
+		|
