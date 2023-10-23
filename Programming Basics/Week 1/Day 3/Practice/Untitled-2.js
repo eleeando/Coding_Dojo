@@ -5,6 +5,7 @@
     
 // }
 // greetSomeone("Anakin");
+
 // function greetAtTime(name,time){
 
 //     if ((time<11) && (time>8) )
@@ -13,6 +14,7 @@
 //     }
 // }
 // greetAtTime("yes", 9)
+
 // function CountDooku(name){
 //     if (name == "Dooku"){
 //         console.log("I'm coming for you, Dooku!")

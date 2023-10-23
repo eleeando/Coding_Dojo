@@ -1,0 +1,8 @@
+How have you noticed your bootcamp knowledge grow or change during Programming Basics?
+Yes, I started to think differently, to ask my friends when I need help even the instructors whom were so friendly.
+
+Describe how you have grown in your understanding of programming and how your brain works?
+I watched the videos related to every module and I stick to what they ask us to do, for example, they always repeat to read the function line by line and thanks to this method you can understand what they want you to do and you can solve the problem.
+
+What do you consider your "Mistake of the Week," which was a failure you learned from during Programming Basics?
+I misunderstood something related to the array length which made me fail the first belt test, maybe because I didn't ask.
