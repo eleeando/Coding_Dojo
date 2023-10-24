@@ -1,0 +1,21 @@
+.maintext{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+}
+.msantra{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+.is-right{
+    text-align: right;
+    background-color: aqua;
+    color: black;
+    text-decoration: underline;
+}
+.maintext span{
+    color: aqua;
+}

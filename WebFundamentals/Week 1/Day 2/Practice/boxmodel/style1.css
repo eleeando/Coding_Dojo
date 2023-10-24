@@ -1,0 +1,35 @@
+*{
+    color: #1877f2;
+}
+h1{
+    font-size:90px;
+    font-family:sans-serf;
+}
+.pink{
+    color:pink;
+    background-image: url("./image/ppronunciation.png");
+}
+.tomato{
+    height:100px;
+    width:100px;
+    border-radius: 60px;
+    border:
+}
+#box1,#box2,#box3{
+    height: 120px;
+    width:120px;
+    background-color:yellowgreen;
+    /* margin-botton:5px; */
+}
+#box1{
+    /* if we have changed the stylesheet of this box the css will apply the 2nd one and remove the 1st one */
+    margin: 20px;
+
+}
+#box2{
+    margin: 30px;
+}
+#box3{
+    margin: 50px;
+}
+
