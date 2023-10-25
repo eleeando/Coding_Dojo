@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: aqua;
+    color: white;
+    box-shadow: 0 3px 3px 0 white;
+}
