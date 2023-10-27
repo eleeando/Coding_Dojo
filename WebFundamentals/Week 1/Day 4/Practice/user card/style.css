@@ -1,0 +1,36 @@
+.container{
+    border: 2px solid gray  ;
+    width: 800px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+#bluecont{
+    background-color: blue;
+    /* width: 1400px; */
+    height: 100px;
+}
+.whitecont{
+    background-color: white;
+    height: 400px;
+    margin-top: -30px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.name{
+    padding-left: 30px;
+}
+.liste, .name{
+    position: relative;
+    left: 50px;
+}
+.user{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 30px;
+
+}
