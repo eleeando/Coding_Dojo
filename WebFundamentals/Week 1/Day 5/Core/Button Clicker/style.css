@@ -1,0 +1,86 @@
+*{
+    font-style:normal;
+}
+.navbar{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainword{
+    font-size: 40px solid;
+    color: black;
+    
+}
+.btn{
+    color: white;
+    background-color: blue;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 0 black;
+}
+.holder{
+    position: relative;
+    left: 20px;
+}
+input{
+    width: 300px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left:150px ;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    margin-top: 10px;
+}
+.ninja{
+    border: 3px solid black;
+    width:400px;
+    height: 200px;
+    margin-top: 10px;
+}
+.leftone{
+    position: relative;
+    left: 31%;
+    bottom: 10%;
+}
+.plural{
+    position: relative;
+    bottom: 20%;
+    left: 5%;
+}
+button{
+    background-color: rgb(216, 216, 11);
+    position: relative;
+    bottom: 20%;
+    left: 5%;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 0 black;
+}
+.type{
+    position: relative;
+    left: 5%;
+}
+.name{
+    position: relative;
+    left: 5%;
+}
+.right{
+    border: 3px solid black;
+    width:200px;
+    height: 100px;
+    margin-top: 20px;
+}
+.rightone{
+    font-size: 20px;
+}
+.rightone span{
+    font-weight: bold;
+}
+.rightbutton{
+    margin-left: 40px;
+    background-color: green;
+}

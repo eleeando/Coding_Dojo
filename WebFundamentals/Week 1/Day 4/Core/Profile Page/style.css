@@ -1,0 +1,199 @@
+*{
+    font-family: cursive;
+}
+.nav {
+    
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+    left: -350px ;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style-type: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.active {
+    font-weight: bold;
+}
+h1{
+    margin-left: 10px;
+}
+.btn {
+    box-shadow: 1px 5px 3px 9px black;
+    background-color: rgb(47, 131, 187);
+    position: relative;
+    left: 450px;
+}
+.left{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.mainContainer{
+    display: flex;
+    height: 1000px;
+}
+.card{
+    border: 3px solid black;
+    width: 500px;
+}
+.mainImage {
+    border-radius: 50%;
+    position:relative;
+    height: 90px;
+    top: 30px;
+}
+.bluepart{
+    background-color: rgb(47, 131, 187);
+    height: 100px;
+}
+.whitepar{
+    background-color: whitesmoke;
+    padding: 350px;
+}
+.information{
+    padding-top: 20px;
+}
+.name{
+    font-size: large;
+}
+ul{
+    list-style-type: none;
+    right: 20px;
+}
+.icon1{
+    width: 20px;
+    height: 20px;
+}
+#editprofile>img{ 
+    /* en cas où la classe ne travaille pas, on utilise le tag pére et on integre de dans le tag d'image */
+    width: 20px;
+    height: 20px;
+}
+.Edu{
+    border: 3px solid black;
+    width: 500px;
+    margin-top: 20px
+}
+.education{
+    background-color: gray;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 40px;
+    width: 490px;
+}
+.mainline{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.dates{
+    color: grey;
+    font-size: medium;
+    padding-left: 10px;
+}
+.training{
+    font-size: small;
+    color: black;
+    padding-left: 10px;
+}
+.right{
+    position: relative;
+    left: 250px;
+}
+.crequests{
+    border: 3px solid black;
+    width: 390px;
+    height: 200px;
+    margin-top: 20px
+}
+.requests{
+    background-color: grey;
+    color: white;
+    font-size: large;
+    font-size: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 50px;
+}
+.one {
+    text-align: center;
+    display: inline-block;
+    background-color:gainsboro;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    padding: 15px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.icon2{
+    border-radius: 50%;
+    height: 40px;
+}
+#reqname{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 140px;
+}    
+.dwhitepart{
+    padding-top: 5px;
+}
+.connecting{
+    border: 3px solid black;
+    width: 390px;
+    height: 310px;
+    margin-top: 20px
+}
+.connections{
+    background-color: grey;
+    color: white;
+    font-size: large;
+    font-size: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 50px;
+}
+.two {
+    text-align: center;
+    display: inline-block;
+    background-color:gainsboro;
+    border-radius: 100%;
+    width: 25px;
+    height: 22px;
+    padding: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.liste{
+    padding-top: 10px;
+}
+.names{
+    margin-right: 2px;
+    font-size: 20px;
+    padding: 5px;
+}
+#more {
+    border-top: 3px solid black;
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+}
+#more>a{
+    color: gray;
+}
+
