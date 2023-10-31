@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+    /* tells the browser to account for any border and padding in the values you specify */
+}
+body{
+    width:1000px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: 10px 0;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap:20px; 
+}
+.left-nav img{
+    width: 50px;
+}
+.left-nav > button{
+    background-color: orange;
+    padding: 5px 10px;
+    margin-right:15px ;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px;
+
+}
+.right-nav > button{
+    padding: 5px 10px;
+    margin-right:15px ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.left-nav input{
+
+}
+.right-nav>button:nth-child(1){
+    background-color: blue;
+    color: white;
+}
+.right-nav>button:nth-child(2){
+    background-color: orange;
+
+}
+
+/*logo area*/
+.header{
+    padding: 30px 90px 0 90px;
+    background-color: aqua;
+}
+.header-topic{
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    min-height: 50px;
+    align-items: center;
+}
+.header-topic > img{
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.header-topic > button{
+    background-color: red;
+    color: white;
+    padding: 5px 22px;
+    border-radius: 5px;
+}
+.header >ul{
+    display: flex;
+    list-style-type: none;
+    padding-top:10px ;
+    gap: 15px;
+}
+.header >ul> li:nth-child(1){
+    color: red;
+    text-decoration: underline;
+}
+/*Main section*/
+main{
+    margin-top: 15px;
+    background-color: lightgray;
+    padding: 5px 9px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*card */
+.card{
+    display: flex;
+    gap: 10px;
+    border: 3px black solid;
+    padding: 10px;
+    background-color: white;
+}
+.vote-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-content img{
+    width: 300px;
+}
+.vote-button img{
+    width: 20px;
+}
+
+.bottom-content img{
+    width: 15px;
+}
+.right-column{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+.right-column h4{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+.right-column .box {
+    border: 2px solid;
+    background-color: white;
+}
+.right-column .box p{
+    padding: 10px;
+    background-color: white;
+    display: block;
+}
+.right-column .box a{
+    padding: 10px;
+    background-color: white;
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+ol{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+ol li {
+    margin: 6px auto;
+}

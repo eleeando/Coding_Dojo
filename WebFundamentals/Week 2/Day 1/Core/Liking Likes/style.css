@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.upperbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.feedback{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.profile{
+    border: 2px solid black;
+    width: 20%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.avatr{
+    margin-top: 20px;
+    text-decoration: underline;
+    color: blue;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+.connections{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.preposition{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 350px;
+    gap: 20px;
+}
+#liken{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.preposition p{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+button{
+    background-color: yellow;
+    box-shadow: 3px 3px 3px 0 black;
+}
