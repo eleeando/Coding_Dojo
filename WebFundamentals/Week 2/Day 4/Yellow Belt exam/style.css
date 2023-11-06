@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar input {
+width: 280px;
+}
+.mainimg{
+    background-color: #00d1b2;
+    width: 50px;
+}
+.trolley {
+    width: 20px;
+    margin-top: 5px;
+}
+.firstul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 18px;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    height: 25px;
+}
+.upperbar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+.leftcont{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    
+
+}
+.leftl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00d1b2;
+    color:white;
+    height: 150px;
+    width: 200px;
+}
+.direction {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+}
+.leftp {
+    display: flex;
+    justify-content: center;
+}
+.rightl {
+    display: flex;
+    flex-direction: row;
+}
+#secc1 {
+    width: 300px;
+    height: 150px;
+}
+.rightcont {
+    display: flex;
+    width: 250px;
+    height: 115px;
+    flex: 1;
+    margin-left: 15px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.rightspan{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.aleoimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+button {
+    display: flex;
+    align-items: end;
+    background-color: #00d1b2;
+    color: white;
+    width: 250px;
+    justify-content: center;
+}
+.footer {
+    background-color: #AAE8D8;
+    height: 100px;
+}
+.miniimge {
+    width: 70px;
+    border-radius: 50%;
+}
+.secondul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    list-style-type: none;
+    height: 25px;
+}
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cookies {
+    border: 2px solid black;
+    position: sticky;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

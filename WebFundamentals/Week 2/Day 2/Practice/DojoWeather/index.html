@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar"> 
+        <h1>DojoWeather</h1>
+        <ul>
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="upperbar">
+            <h2 class="place">San Jose</h2>
+            <div class="temp">
+                <label>Show temperature in</label>
+                <select id="temperature">
+                    <option id="celsius">°C</option>
+                    <option id="fahrenheit">°F</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="tempcard">
+            <div class="card">
+                <div> <h4>Today</h4>
+                <img src="/assets/some_rain.png" alt="#" class="weathimg">
+                </div>
+                <div class="footer">
+                    <p>some rain</p>
+                    <span>24°</span>
+                    <span>16°</span>
+                </div>
+            </div>  
+            <div class="card">
+                <h4>Tomorrow</h4>
+                <img src="/assets/some_sun.png" alt="#" class="weathimg" >
+                <div class="footer">
+                    <p>some sun</p>
+                    <span>27°</span>
+                    <span>19°</span>
+                </div>
+            </div>
+            <div class="card">
+                <h4>Friday</h4>
+                <img src="/assets/some_clouds.png" alt="#" class="weathimg">
+                <div class="footer">
+                    <p>some clouds</p>
+                    <span>21°</span>
+                    <span>16°</span>
+                </div>
+            </div>
+            <div class="card">
+                <h4>Saturday</h4>
+                <img src="/assets/some_sun.png" alt="#" class="weathimg">
+                <div class="footer">
+                    <p>some sun</p>
+                    <span>26°</span>
+                    <span>21°</span>
+                </div>
+            </div>
+        </div>
+        <div class="cookies">
+            <img src="/assets/cookie.png" alt="#" class="biscuit">
+            <div>
+                <h5>Stop! Cookie time</h5>
+                <p>We use cookies. We use cookies. <br> We use cookies. We use cookies. <a href="#">Read more...</a></p>
+            </div>
+            <button>I accept</button>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>

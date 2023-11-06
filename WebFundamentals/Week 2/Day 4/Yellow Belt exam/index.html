@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE Yellow Belt exam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- navbar div -->
+    <nav class="navbar">
+        <img src="./images/assets/leaf.png" alt="#" class="mainimg">
+        <h1>EasyBay</h1>
+        <input placeholder="Search for something">
+        <!-- <img src="/images/assets/search-dark.png" alt="#"> -->
+            <label for="#">Sign In</label>
+            <img src="./images/assets/cart-dark.png" alt="#" class="trolley" onclick="alert1()">
+    </nav>
+    <!-- Main Container  -->
+    <div class="maincontainer">
+        <div class="options">
+            <ul class="firstul">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Container -->
+    <div class="container">
+        <!-- the container is divided to two main bars the upperbar and the footer -->
+        <h2>Your Source for Serious Succulent Specialties</h2>
+        <div class="upperbar">
+            <!-- the upperbar contains in it's turn an h2, rightcont and leftcont -->
+            
+            <div class="leftcont">
+                <!-- the leftcont div is divided in 2 span; leftl and rightl -->
+                <span class="leftl">
+                    <!-- the leftl contains a p and the direction image -->
+                    <p class="leftp">Discover succ- <br> ulent varieties <br> one pot or rock <br>at a time!</p>
+                    <p class="leftp">Discover
+                        <img src="./images/assets/arrow-light.png" alt="#" class="direction">
+                    </p>
+                </span>
+                <span class="rightl"> 
+                    <!-- the rightl contains the secculents images -->
+                        <img src="./images/assets/succulents-1.jpg" alt="#" id="secc1" onmouseover="change()" onmouseout="change2()"> 
+                </span>
+            </div>
+            <div class="rightcont">
+                <!-- the rightcont contains 2 spans; the image of aleo and the button which contains the direction icon -->
+                <span class="rightspan">
+                    <img src="./images/assets/aloe-m.jpg" alt="#" class="aleoimg">
+                </span>
+                <span>
+                    <button>Soothing Aloe
+                        <img src="./images/assets/arrow-light.png" alt="#" class="direction">
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="footer">
+            <!-- the footer div contains 6 images with 6 p divided in an ul in 6 il -->
+            <ul class="secondul">
+                <li class="suggestion"> 
+                    <img src="./images/assets/aeonium-s.jpg" alt="#" class="miniimge">
+                    <p>Aeonium</p>
+                </li>
+                <li class="suggestion">
+                    <img src="./images/assets/sedum-s.jpg" alt="#" class="miniimge">
+                    <p>Aleo</p>
+                </li>
+                <li class="suggestion">
+                    <img src="./images/assets/cactus-s.jpg" alt="#"class="miniimge">
+                    <p>Cactus</p>
+                </li>
+                <li class="suggestion">
+                    <img src="./images/assets/sempervivum-s.jpg" alt="#" class="miniimge">
+                    <p>Echeveria</p>
+                </li>
+                <li class="suggestion">
+                    <img src="./images/assets/sedum-s.jpg" alt="#" class="miniimge">
+                    <p>Sedum</p>
+                </li>
+                <li class="suggestion">
+                    <img src="./images/assets/sempervivum-s.jpg" alt="#"class="miniimge">
+                    <p>Sempervivum</p>
+                </li>
+            </ul>
+        </div>
+        <div class="cookies" id="cookie">
+            <!-- the alert div contains; the alert icon, a p and a button -->
+            <img src="./images/assets/alert-dark.png" alt="#">
+            <p>This site makes use of third-party cookies, by clicking "I accept" <br> you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+            <button onclick="deletek()">I Accept</button>
+        </div>
+
+    </div>
+    
+
+    <script scr="script.js"></script>
+</body>
+</html>
