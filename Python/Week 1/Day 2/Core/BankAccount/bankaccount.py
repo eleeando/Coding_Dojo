@@ -33,10 +33,6 @@ class BankAccount:
         for account in cls.all_instance:
             print(f"balance: {account.balance} Interest Rate: {account.int_rate}")
             
-
-
-
-
 acc1=BankAccount(0.02,100)
 acc2=BankAccount(0.03,500)
 acc1.deposit(100).deposit(100).deposit(100).withdraw(150).yield_interest().display_account_info()
