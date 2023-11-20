@@ -1,0 +1,15 @@
+h1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bottone{
+    background-color: green;
+}
+body{
+    display: flex;
+    align-items: center;
+}

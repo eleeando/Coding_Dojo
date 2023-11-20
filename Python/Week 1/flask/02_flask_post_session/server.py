@@ -18,7 +18,7 @@ def process():
     session["name"]= request.form["fav_sport"]
     return redirect('/display')
 
-@app.route('/dosplay')
+@app.route('/display')
 def display():
     return render_template("display.html")
 
