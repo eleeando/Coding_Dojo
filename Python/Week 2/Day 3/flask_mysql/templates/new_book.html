@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Book</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="display-5"></h2>
+    </div>
+    <form action="/books/create" method="post">
+        <div>
+            <label for="" class="form-label">Book Title</label>
+            <input type="text" class="form-control" name="title">
+        </div>
+        <div>
+            <label for="" class="form-label">Price</label>
+            <input type="text" class="form-control" name="price">
+        </div>
+        <div>
+            <label for="" class="form-label">Author</label>
+            <input type="text" class="form-control" name="author">
+        </div>
+        <div>
+            <label for="" class="form-label">Is Available</label>
+            <input type="text" class="form-control" name="Is Available" checked>
+        </div>
+        <div>
+            <label for="" class="form-label">Cover</label>
+            <input type="text" class="form-control" name="Cover">
+        </div>
+        <div>
+            <label for="" class="form-label">Description</label>
+            <textarea name="description" id ="" cols="30" rows="10" class="form-control"></textarea>
+        <div>
+            <label for="" class="form-label">Genre</label>
+            <input type="text" class="form-control" name="title">
+        </div>
+        <button>Create</button>
+    </form>
+</body>
+</html>

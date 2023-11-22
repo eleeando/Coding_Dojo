@@ -15,7 +15,7 @@ class User:
         return self
     
     def display_user_balance (self):
-        displayer = BankAccount (self.display_account_info)
+        self.account.display_account_info()
         return self
     
     @classmethod
@@ -26,7 +26,8 @@ class User:
 
         
 
-    account_1=user1(int_rate=0.02, balance=100)
-    account_2=user
+user_4=User("elee","elee@gmail.com")
+user_4.display_user_balance()
+
 
 

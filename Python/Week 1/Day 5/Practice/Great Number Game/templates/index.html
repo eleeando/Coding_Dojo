@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guessbox{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: gray;
+
+}
+button{
+    margin-top: 20px;
+    background-color: yellow;
+    color: black;
+}
+.suggestion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    /* background-color: gray; */
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+    </style>
+    <title>Great Number Game</title>
+</head>
+<body>
+
+<form action="/" method="post">
+    
+    <h1>Welcome to the Great Number Game!!!</h1>
+    <h4>I am thinking of a number between 1 and 100</h4>
+    <div class="suggestion">
+    {% if 'number' in session%}
+        {%if session['one']== session['number']%}
+            <p>was the number!</p>
+        {%elif session['number'] > session['one']%}
+            <p>Too high</p>
+        {%else%}
+            <p>Too low</p>
+        {%endif%}
+    {%endif%}
+    </div>
+    <div>
+
+    </div>
+    <div class="guessbox">
+        <h5>Take a guess</h5>
+        <input type="text" name="number"> 
+        <button>Guess</button>
+    </div>
+
+
+</form>  
+    
+    
+
+</body>
+</html>

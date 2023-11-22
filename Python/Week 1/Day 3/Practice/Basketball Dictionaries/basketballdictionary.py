@@ -4,7 +4,13 @@ class Player:
         self.age = info["age"]
         self.position = info["position"]
         self.team = info["team"]
-
+    
+    @classmethod
+    def list(cls):
+        newArr=[]
+        for each_dic in players:
+            newArr.append(Player(each_dic))
+        return newArr
 
 
 players = [
@@ -79,19 +85,19 @@ player3=Player(kyrie)
 # print(player1.__dict__)
 
 
-arrNew=[]
-for each_dic in players:
-    arrNew.append(Player(each_dic))
+# arrNew=[]
+# for each_dic in players:
+#     arrNew.append(Player(each_dic))    #Player(each_dic): that means that we will create instances from the list given
 
 
 # for each_instance in arrNew:              # 'hhh' is just a variable in the class where every time the loop cycles, it takes an item in the arr we p
 #     each_instance.name="ele"
 #     print(ele.__dict__)
 
-@classmethod
-newArr=[]
-for each_dic in players:
-    newArr.append(Player(each_dic))
+# @classmethod
+# newArr=[]
+# for each_dic in players:
+#     newArr.append(Player(each_dic))
 
 
 

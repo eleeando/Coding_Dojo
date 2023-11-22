@@ -6,6 +6,20 @@
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
     <title>Document</title>
 </head>
+<style>
+    .color1 {
+    background-color: {{color1}};
+    }
+
+    .color2 {
+    background-color: {{color2}};
+    }
+
+    td {
+    width: 60px;
+    height: 60px;
+    }
+</style>
 <body>
     <table>
         {%for i in range(number1) %}

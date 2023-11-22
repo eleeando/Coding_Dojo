@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="text-center mb-3">
+            <h1 class="display-4">Welcome To Books Store</h1>
+        </div>
+        {%for book in books%}
+            <h4>Book is {{book.id}} -- {{book.title}} </h4>
+        {%endfor%}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Created At</th>
+                    <th>Is Available</th>
+                    <th>Price</th>
+                    <th>Genre</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {%for book in books%}
+                <tr>
+                    <td> {{book.id}} </td>
+                    <td> {{book.title}} </td>
+                    <td> {{book.author}} </td>
+                    <td> {{book.pages}} </td>
+                    <td> {{book.price}} </td>
+                    <td> 
+                        {%if book.is_available == 1%}
+                            <h6 class="text-success">Available</h6>
+                        {%else%}
+                            <h6 class="text-danger">Available</h6>
+                        {%endif%}
+                    </td>
+                    <td> {{book.created_ad}} </td>
+                    <td> 
+                        <button class="btn btn-primary">View</button>
+                        <button class="btn btn-warning">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                {%endfor%}
+            </tbody>
+
+        </table>
+        <a href="/books/new" class="btn btn-black">Add New Book</a>
+    </div>
+    
+</body>
+</html>
