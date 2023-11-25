@@ -1,0 +1,13 @@
+SELECT * FROM dojos_ninjas_schema.dojos;
+SET SQL_SAFE_UPDATES = 0;
+INSERT INTO dojos (name) Values("dojo1"),("dojo2"),("dojo3");
+Delete from dojos;
+INSERT INTO dojos (name) Values("dojo1"),("dojo2"),("dojo3");
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) Values ("Elee", "Andolsi", 31, 4), ("Dhia", "Ben Hassine", 25, 4), ("Sameh", "Khazri", 26, 4);
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) Values ("JongHyun", "Kim", 27, 5), ("Taemin", "Lee", 29, 5), ("Jinki", "Lee", 33, 5);
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) Values ("Slimen", "Abyath", 50, 6), ("Lazhar", "Arrouch", 45, 6), ("Dhaw", "Akthar", 38, 6);
+SELECT * FROM ninjas WHERE dojos_id=4;
+SELECT * FROM ninjas WHERE dojos_id=6;
+select dojos.name FROM dojos, ninjas where ninjas.dojos_id=dojos.id and ninjas.id=9;
+SELECT * FROM ninjas join dojos ON dojos_id=dojos.id WHERE ninjas.id=6;
+SELECT * FROM ninjas join dojos ON dojos_id=dojos.id;

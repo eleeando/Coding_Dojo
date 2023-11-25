@@ -1,0 +1,17 @@
+INSERT INTO table1 (first_name, last_name, email) VALUES ("Elee", "Andolsi", "e@a.com"), ("Roua","Andolsi","r@a.com"), ("Sameh", "Khazri", "s@k.com"), ("Aziz", "Bouazizi", "a@b.com"), ("Dhia", "Ben Hassine", "d@b.com"), ("med", "dhawedi","m@d.com");
+
+SELECT* from table1;
+
+select email from table1 where id=1;
+
+select * from table1;
+
+select first_name, last_name from table1 where id=6;
+
+UPDATE table1 SET last_name = "Pancake" where id=3; 
+
+DELETE FROM table1 WHERE id=2;
+
+select first_name from table1;
+
+select * from table1 order by first_name desc;

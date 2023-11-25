@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def dashboard():
     books = Book.get_all()
-    print("Books as Objects:", "*"*25, books, "*" *25)
+    # print("Books as Objects:", "*"*25, books, "*" *25)
     return render_template("index.html", book)
 
 
@@ -17,7 +17,7 @@ def new_book():
 
 @app.route('/books/create', methods=['POST'])
 def create_book():
-    print("*"*, request.form, "*"*20)
+    print(request.form, "*"*20)
     data ={
         "title":request.form["title"],
         "author":request.form["author"],
@@ -34,7 +34,28 @@ def create_book():
     Book.create(data)
     return redirect("/")
 
-#
+# View one
+@app.route("/books/<int:id>")
+def one_book(id):
+    data ={"id": id}
+    Book get_one_by_id(data)
+    return render_template("one_book.html")
+
+#Update Get 😎😎 -> Post 👋👋
+@app.route('/books/<int:id>/edit') 
+def edit(id):
+    book_to_edit = Book.get_one_by_id({"id": id})
+    return render_template("edit_book.html", book=book_to_edit)
+
+@app.route('/books/<int:id>/update', methods=['post'])  #when we forget to mention the id we can add it in the route "/books/<int:id>/update', methods=['post']" or we can add it in the head of the html page which is the easir way
+def updatr():
+    print("🤡🤡"request.form)
+    return redirect("/")
+
+@app.route('/books/<int:id>/destroy')
+def destroy(id):
+    Book.delete({'id': id})
+    return redirect('/')
 
 
 

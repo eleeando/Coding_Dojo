@@ -17,6 +17,26 @@ class Book:
         #CRUD QUERIES = classmethods
         #*C
         @classmethod
+        def get_one_byçid(cls,data):
+            """" data ={id:2} """
+            query = "SELECT *FROM books WHERE id=%(id)s"  #%(id)s: c'est un syntax de jinja et il montre que la variable id n'esst pas fixe
+            db_result = connectToMySQL("fullstack_db").query_db(query, data)
+            print("👌👌👌👌👌", db_result, "👌👌👌👌👌")
+            one_book = Book(db_result[0])
+            return one_book
+        
+        @classmethod
+        def update(cls, data):
+            query= """UPDATE books SET title = %(title)s, author=%(author)s, description=%(description)s, cover=%(cover)s, price=%(price)s, is_available=%(is_available)s, genre=%(genre)s WHERE id=%(id)s"""
+            return connectToMySQL("fullstack_db").query_db(query, data)
+        
+        @classmethod
+        def delete(cls, data):
+            query = """ DELETE FROM books WHERE id=%(id)s;"""
+            return connectToMySQL("fullstack_db").query_db(query, data)
+
+
+        @classmethod
         def get_all(cls):
             query ="SELECT * FROM books"    #c'est le meme quary qu'on a déjà écrit dans My SQL WORKBENCH
             db_result = connectToMySQL("fullstack_db")
@@ -32,7 +52,7 @@ class Book:
             return all_books
         
         @classmethod
-            def save(cls, data):
+        def save(cls, data):
         query = """INSERT INTO books (title, author, description, pages)
     	    VALUES (%(first_name)s,%(last_name)s,%(occupation)s);"""
         result = connectToMySQL(cls.DB).query_db(query,data)
