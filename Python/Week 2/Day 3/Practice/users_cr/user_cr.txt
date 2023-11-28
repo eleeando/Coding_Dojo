@@ -1,0 +1,2 @@
+SELECT * FROM users_cr.users;
+insert into users (first_name, last_name, email, created_at) values ("Michael", "Jackson", "m@j.com", CURRENT_TIMESTAMP), ("JongHyun", "Kim", "j@k.com", CURRENT_TIMESTAMP), ("Taemin", "Lee", "t@l.com", CURRENT_TIMESTAMP), ("Chedli", "Tammar", "c@t.com", CURRENT_TIMESTAMP), ("Ragheb", "Alama", "r@a.com", CURRENT_TIMESTAMP);
