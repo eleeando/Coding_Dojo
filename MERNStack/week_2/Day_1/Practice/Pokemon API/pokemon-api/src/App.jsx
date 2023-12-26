@@ -6,7 +6,7 @@ function App() {
   const [fetchPokemon, setFetchPokemon] = useState([])
   const fetchAPI =()=>{
   fetch("https://pokeapi.co/api/v2/pokemon?limit=807&offset=0")
-  .then(response => {return response.json()})
+  .then(response => {return response.json()})  //On ajoute .json pour que l'affichage soit correct car le fetch ne peut pas afficher le resultat voulu
   .then(response => {setFetchPokemon(response.results), console.log(response.results)})
   .catch(error => console.log("FETCH API Error",error))
   
