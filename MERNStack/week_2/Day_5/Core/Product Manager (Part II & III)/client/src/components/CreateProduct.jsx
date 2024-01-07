@@ -22,12 +22,11 @@ const CreateProduct = () => {
             setErrors(errorArr)
         })
     }
-
-    const createObj =(id)=>{
-        axios.delete(`http://localhost:8000/api/country/delete/${id}`)
-        .then(res=>setCountries(countries.filter(c=>c._id!==id)))
-        .catch(err=>console.log(err))
-    }
+    const createObj = () =>{
+        axios.post(`http://localhost:8000/api/product/new`)
+        .then(res=>{nav('/')})
+        .ctach ((err) => console.log(err))
+        }
 
   return (
     <div>
@@ -43,7 +42,7 @@ const CreateProduct = () => {
                 <p key ={index} className='text-danger'>{err}</p>
             )):<></>} 
             {/* si le map ne trouve pas de variables, elle peut bloquer tout le travail */}
-            <button className='btn btn-sm btn-secondary' onClick={()=>createObj(c._id)}>Create</button>
+            <button className='btn btn-sm btn-secondary' onClick={()=>createObj()}>Create</button>
             <button className='btn btn-danger' onClick={()=>nav('/')}>Cancel</button>
         </form>
     </div>
