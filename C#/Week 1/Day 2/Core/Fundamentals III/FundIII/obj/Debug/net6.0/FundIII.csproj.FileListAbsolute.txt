@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Fundamentals III\FundIII\bin\Debug\net6.0\FundIII.exe
+C:\Users\user\Desktop\Fundamentals III\FundIII\bin\Debug\net6.0\FundIII.deps.json
+C:\Users\user\Desktop\Fundamentals III\FundIII\bin\Debug\net6.0\FundIII.runtimeconfig.json
+C:\Users\user\Desktop\Fundamentals III\FundIII\bin\Debug\net6.0\FundIII.dll
+C:\Users\user\Desktop\Fundamentals III\FundIII\bin\Debug\net6.0\FundIII.pdb
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.AssemblyInfo.cs
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.dll
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\refint\FundIII.dll
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.pdb
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\FundIII.genruntimeconfig.cache
+C:\Users\user\Desktop\Fundamentals III\FundIII\obj\Debug\net6.0\ref\FundIII.dll

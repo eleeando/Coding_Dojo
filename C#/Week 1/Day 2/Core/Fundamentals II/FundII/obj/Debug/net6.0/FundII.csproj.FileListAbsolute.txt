@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Fundamentals II\FundII\bin\Debug\net6.0\FundII.exe
+C:\Users\user\Desktop\Fundamentals II\FundII\bin\Debug\net6.0\FundII.deps.json
+C:\Users\user\Desktop\Fundamentals II\FundII\bin\Debug\net6.0\FundII.runtimeconfig.json
+C:\Users\user\Desktop\Fundamentals II\FundII\bin\Debug\net6.0\FundII.dll
+C:\Users\user\Desktop\Fundamentals II\FundII\bin\Debug\net6.0\FundII.pdb
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.AssemblyInfo.cs
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.dll
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\refint\FundII.dll
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.pdb
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\FundII.genruntimeconfig.cache
+C:\Users\user\Desktop\Fundamentals II\FundII\obj\Debug\net6.0\ref\FundII.dll
