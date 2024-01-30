@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .down{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Start Time</h2>
+            @{
+                <p>
+                    @DateTime.Now.ToString("ddd, dd MMM yyyy HH:mm:ss")
+                </p>
+            }
+        </div>
+        <div class="right">
+            <h2>Time Ends</h2>
+            @{
+                DateTime thisDate1 = new DateTime(2024, 8, 19,21,50,00);
+                <p>
+                    @thisDate1.ToString("MMMM dd, yyyy HH:mm:ss")
+                </p>
+            }
+        </div>
+    </div>
+    <div class="down">
+        @{
+            DateTime date1 = DateTime.Now;
+            DateTime date2 = new DateTime(2024, 8, 19, 21,50,00);
+            
+            TimeSpan timeDifference = date2 - date1;
+
+            <p>
+                @($"Time difference: {timeDifference.Days} days, {timeDifference.Hours} hours, {timeDifference.Minutes} minutes")
+            </p>
+        }
+    </div>
+</body>
+</html>
