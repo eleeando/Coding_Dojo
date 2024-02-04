@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Dish>
+
+<div class="text-center">
+    <h1>Yum! Check out our tasty dishes!</h1>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Chef</th>
+                <th>Tastiness</th>
+                <th>Calories</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                @foreach (Dish item in Model)
+                {
+                    <tr>
+                    <td>@item.Name</td>
+                    <td>@{
+                            foreach(Chef chef in ViewBag.Chefs)
+                            {
+                                if (chef.ChefId==item.ChefId)
+                                {
+                                    @chef.FirstName
+                                }
+                            }
+                        }</td>
+                    <td>@item.Tastiness</td>
+                    <td>@item.Calories</td>
+                    </tr>
+                }
+            
+        </tbody>
+    </table>
+</div>
