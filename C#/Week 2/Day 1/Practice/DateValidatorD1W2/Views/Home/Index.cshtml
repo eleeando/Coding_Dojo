@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Birthday
+
+<div class="text-center">
+    <h1 class="display-4">Calendar</h1>
+    <div>
+        <form asp-action="Create" asp-controller="Home" method="post">
+            <label>Date</label>
+            <input asp-for="Bibi">
+            <span asp-validation-for="Bibi"></span>
+            <button>Create</button>
+        </form>
+    </div>
+    
+</div>

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+
+<div class="text-center">
+<div class="d-flex justify-content-between">
+        <h2>Welcome @ViewBag.Name</h2>
+<form asp-action="LogOut" method="post" asp-controller="Home">
+    <button class="btn btn-danger">Logout</button>
+</form>
+</div>
+<p class="h3">@ViewBag.Number</p>
+
+<div class="d-flex flex-wrap justify-content-around">
+    <form asp-action="AddNumber" method="post" asp-controller="Home">
+
+    <button class="btn btn-info w-100">+1</button>
+</form>
+<form asp-action="SubstracteNumber" method="post" asp-controller="Home">
+
+    <button class="btn btn-warning w-100">-1</button>
+</form>
+<form asp-action="MultipleNumber" method="post" asp-controller="Home">
+
+    <button class="btn btn-success w-100">*2</button>
+</form>
+<form asp-action="RandomNumber" method="post" asp-controller="Home" >
+
+    <button class="btn btn-dark w-100">Random</button>
+</form>
+</div>
+</div>
