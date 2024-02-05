@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lili
 build_property.RootNamespace = Lili
-build_property.ProjectDir = c:\Users\user\Desktop\Lili\
+build_property.ProjectDir = c:\Users\user\Desktop\Coding_Dojo\C#\Week 2\Day 3\Practice\FirstConnection\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\user\Desktop\Lili
+build_property.MSBuildProjectDirectory = c:\Users\user\Desktop\Coding_Dojo\C#\Week 2\Day 3\Practice\FirstConnection
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/user/Desktop/Lili/Views/Home/Index.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/user/Desktop/Lili/Views/Home/Privacy.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/user/Desktop/Lili/Views/Shared/Error.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/user/Desktop/Lili/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/user/Desktop/Lili/Views/_ViewImports.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/user/Desktop/Lili/Views/_ViewStart.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/user/Desktop/Lili/Views/Shared/_Layout.cshtml]
+[c:/Users/user/Desktop/Coding_Dojo/C\#/Week 2/Day 3/Practice/FirstConnection/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ih2nhp9wnn

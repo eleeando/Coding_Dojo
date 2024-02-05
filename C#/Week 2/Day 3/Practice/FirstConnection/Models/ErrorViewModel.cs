@@ -1,4 +1,4 @@
-namespace Lili.Models;
+namespace FirstConnection.Models;
 
 public class ErrorViewModel
 {
